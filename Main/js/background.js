@@ -1,5 +1,7 @@
-chrome.runtime.onInstalled.addListener(function (object) {
-    chrome.tabs.create({url: "http://yoursite.com/"}, function (tab) {
-        console.log("New tab launched with http://yoursite.com/");
-    });
+chrome.runtime.onInstalled.addListener(() => {
+    chrome.tabs.create(
+        {
+            url: "https://github.com/Srinivasareddy2018/Feedider"
+        }, function () {   }
+    );
 });

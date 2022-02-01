@@ -22,8 +22,6 @@ h1 {
   margin-bottom: 5px;
   display: flex;
   justify-content: center;
-  /* margin: 5px auto; */
-  /* width: 150px; */
 }
 
 #topBar img {
@@ -57,7 +55,6 @@ li {
 }
 
 #menu::-webkit-scrollbar {
-  /* display: none; */
   width: 3px;
 }
 
