@@ -1,0 +1,151 @@
+/* Global */
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  width: 300px;
+  height: 535px;
+  background-color: #f4f4f4;
+}
+
+h1 {
+  padding: 0;
+  margin: 0;
+  display: inline;
+}
+
+/* Top Bar */
+#topBar {
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  /* margin: 5px auto; */
+  /* width: 150px; */
+}
+
+#topBar img {
+  margin: 3px;
+  width: 25px;
+  height: 25px;
+}
+
+/* Menu */
+ul {
+  background-color: #fcfcfc;
+  list-style: none;
+  display: block;
+  width: 100%;
+  max-width: 900px;
+  margin: 0;
+  padding: 8px 0;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+li {
+  position: relative;
+  height: 50px;
+  background-color: #fcfcfc;
+}
+
+#menu {
+  height: 87%;
+  overflow-y: scroll;
+}
+
+#menu::-webkit-scrollbar {
+  /* display: none; */
+  width: 3px;
+}
+
+#menu::-webkit-scrollbar-thumb {
+  background: #929292;
+}
+
+label {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-size: medium;
+}
+
+label:hover {
+  background-color: rgb(226, 226, 226);
+  border-radius: 10px;
+}
+label > span:first-of-type {
+  display: inline-block;
+  padding: 0.85em;
+}
+
+.switch input {
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  display: inline-block;
+  position: absolute;
+  content: "";
+  top: 0.95em;
+  right: 1em;
+  width: 40px;
+  height: 20px;
+  background-color: white;
+  border: 1px solid #929292;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.slider::before {
+  position: absolute;
+  top: 4.4px;
+  left: 5px;
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: #2b2b2b;
+  transition: 0.5s;
+  border-radius: 50%;
+}
+
+input:checked + .slider::before {
+  transform: translateX(18px);
+  background-color: white;
+}
+
+input:checked + .slider {
+  background-color: #0078d4;
+  border: 1px solid #0078d4;
+}
+
+/* Footer */
+.flexFooter {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 5px 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+  border: solid 2px #0078d4;
+  border-radius: 15px;
+  padding: 5px;
+  text-align: center;
+  width: 90px;
+}
+
+footer a:visited {
+  color: black;
+}
+
+footer a:hover {
+  background-color: #0078d4;
+  color: white;
+}

@@ -1,0 +1,25 @@
+html[hide_feed="true"] #primary > ytd-rich-grid-renderer,    /* Home Page Feed */
+html[hide_home_page_left_sidebar="true"]
+    #guide-inner-content,                                    /* Home Page Left Nav Sidebar */
+html[hide_sidebar="true"] #secondary,                        /* Video Right Sidebar */
+html[hide_comments="true"] #comments,                        /* Comments */
+html[hide_end_screen_feed="true"] .html5-endscreen,          /* End Screen Feed */
+html[hide_end_screen_video_cards="true"] 
+    .ytp-ce-element.ytp-ce-element,                          /* End Screen Video Cards */
+html[hide_best_of_youtube="true"]
+    #sections
+    > ytd-guide-section-renderer:nth-child(4),               /* Best of Youtube */
+html[hide_explore="true"]
+    #items
+    > ytd-guide-entry-renderer:nth-child(2),                 /* Explore */
+html[hide_subscriptions="true"]
+    #items
+    > ytd-guide-entry-renderer:nth-child(3),                 /* Subscriptions */
+html[hide_search_suggestions="true"] body 
+    > div
+    > div:nth-child(2),                                      /* Search Suggestions */
+html[hide_people_also_watched="true"] #contents
+    > ytd-shelf-renderer,                                    /* People Also Watched in Search Results*/
+html[hide_description="true"] #container > ytd-expander      /* Description */ {
+  display: none;
+}

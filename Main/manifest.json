@@ -1,0 +1,43 @@
+{
+    "name": "Feedider",
+    "description": "This extension helps to watch only videos that you really want by removing unwanted recommended and home feed videos from youtube.",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "js/background.js"
+    },
+    "permissions": [
+        "storage",
+        "activeTab",
+        "scripting",
+        "tabs"
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "/images/logo.jpg",
+            "32": "/images/logo.jpg",
+            "48": "/images/logo.jpg",
+            "128": "/images/logo.jpg"
+        }
+    },
+    "icons": {
+        "16": "/images/logo.jpg",
+        "32": "/images/logo.jpg",
+        "48": "/images/logo.jpg",
+        "128": "/images/logo.jpg"
+    },
+    "content_scripts": [
+        {
+            "run_at" : "document_end",
+            "matches": [
+                "*://*.youtube.com/*"
+            ],
+            "css": ["css/contentScriptStyle.css"],
+            "js": [
+                "js/contentScript.js"
+            ],
+            "all_frames": true
+        }
+    ]
+}
