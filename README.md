@@ -1,7 +1,6 @@
 <img src="images/logo.jpg" align="center">,
 # Feedider
-Thanks for using Feedider.
-Feedider helps to watch only videos that you really want by removing unwanted recommended and home feed videos from youtube.
+Feedider helps to watch only videos that you really want by removing unwanted recommended and home feed videos from youtube. Thanks for using Feedider.
 
 ## Features
 - Hide Home Feed
