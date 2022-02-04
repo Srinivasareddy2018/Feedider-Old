@@ -13,3 +13,4 @@ Feedider helps to watch only videos that you really want by removing unwanted re
 - Hide People also Watched Videos
 
 ## Install
+Available in <a href="https://chrome.google.com/webstore/detail/feedider/ljfikgipfnfppelplmgdpmooaoehaljb/">Chrome Web Store</a>
