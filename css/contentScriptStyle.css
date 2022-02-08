@@ -20,6 +20,15 @@ html[hide_search_suggestions="true"] body
     > div:nth-child(2),                                      /* Search Suggestions */
 html[hide_people_also_watched="true"] #contents
     > ytd-shelf-renderer,                                    /* People Also Watched in Search Results*/
+html[hide_like_button="true"] 
+    #top-level-buttons-computed
+    > ytd-toggle-button-renderer:nth-child(1),               /* Hide Like Button */
+html[hide_dislike_button="true"] 
+    #top-level-buttons-computed 
+    > ytd-toggle-button-renderer:nth-child(2),               /* Hide Dislike Button */
+html[hide_mixes="true"] 
+    #contents 
+    > ytd-playlist-renderer,                                 /* Hide Mixes */
 html[hide_description="true"] #container > ytd-expander      /* Description */ {
   display: none;
 }

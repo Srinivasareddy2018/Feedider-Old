@@ -12,6 +12,9 @@ let menu = {
     "hide_subscriptions": {name: "Subscriptions Button"},
     "hide_search_suggestions": {name: "Search Suggestions"},
     "hide_people_also_watched": {name: "People also Watched"},
+    "hide_like_button": {name: "Like Button"},
+    "hide_dislike_button": {name: "Dislike Button"},
+    "hide_mixes": {name: "Hide Mixes"},
     "hide_description": {name: "Description"}
 }
 
