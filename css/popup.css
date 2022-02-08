@@ -7,7 +7,6 @@
 
 body {
   width: 300px;
-  height: 535px;
   background-color: #f4f4f4;
 }
 
@@ -50,8 +49,9 @@ li {
 }
 
 #menu {
-  height: 87%;
+  height: 25rem;
   overflow-y: scroll;
+  -ms-overflow-y: scroll;
 }
 
 #menu::-webkit-scrollbar {
