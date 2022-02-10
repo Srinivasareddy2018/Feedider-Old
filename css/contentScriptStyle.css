@@ -29,6 +29,12 @@ html[hide_dislike_button="true"]
 html[hide_mixes="true"] 
     #contents 
     > ytd-playlist-renderer,                                 /* Hide Mixes */
+html[hide_autoplay="true"] 
+    #movie_player
+    > div.ytp-chrome-bottom
+    > div.ytp-chrome-controls
+    > div.ytp-right-controls
+    > button:nth-child(1),                                   /* Autoplay */
 html[hide_description="true"] #container > ytd-expander      /* Description */ {
   display: none;
 }

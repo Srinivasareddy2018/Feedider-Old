@@ -36,6 +36,16 @@
                 "js/contentScript.js"
             ],
             "all_frames": true
+        },
+        {
+            "run_at" : "document_end",
+            "matches": [
+                "*://*.youtube.com/watch?*"
+            ],
+            "js": [
+                "js/disableAutoplay.js"
+            ],
+            "all_frames": true
         }
     ]
 }

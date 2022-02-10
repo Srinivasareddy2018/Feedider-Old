@@ -15,6 +15,7 @@ let menu = {
     "hide_like_button": {name: "Like Button"},
     "hide_dislike_button": {name: "Dislike Button"},
     "hide_mixes": {name: "Hide Mixes"},
+    "hide_autoplay": {name: "Disable Autoplay"},
     "hide_description": {name: "Description"}
 }
 
