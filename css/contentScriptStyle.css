@@ -28,7 +28,7 @@ html[hide_dislike_button="true"]
     > ytd-toggle-button-renderer:nth-child(2),               /* Hide Dislike Button */
 html[hide_playlist="true"] 
     #contents 
-    > ytd-playlist-renderer,                                 /* Hide Mixes */
+    > ytd-playlist-renderer,                                 /* Hide Playlist */
 html[hide_autoplay="true"] 
     #movie_player
     > div.ytp-chrome-bottom
