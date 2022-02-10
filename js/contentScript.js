@@ -15,7 +15,7 @@ let menu = {
     "hide_people_also_watched": {name: "People also Watched"},
     "hide_like_button": {name: "Like Button"},
     "hide_dislike_button": {name: "Dislike Button"},
-    "hide_mixes": {name: "Hide Mixes"},
+    "hide_playlist": {name: "Hide Playlist"},
     "hide_autoplay": {name: "Disable Autoplay"},
     "hide_description": {name: "Description"}
 }

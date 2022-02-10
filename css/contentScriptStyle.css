@@ -26,7 +26,7 @@ html[hide_like_button="true"]
 html[hide_dislike_button="true"] 
     #top-level-buttons-computed 
     > ytd-toggle-button-renderer:nth-child(2),               /* Hide Dislike Button */
-html[hide_mixes="true"] 
+html[hide_playlist="true"] 
     #contents 
     > ytd-playlist-renderer,                                 /* Hide Mixes */
 html[hide_autoplay="true"] 
