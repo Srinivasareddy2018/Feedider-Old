@@ -29,6 +29,9 @@ html[hide_dislike_button="true"]
 html[hide_playlist="true"] 
     #contents 
     > ytd-playlist-renderer,                                 /* Hide Playlist */
+html[hide_mixes="true"]
+    #contents
+    > ytd-radio-renderer,                                    /* Hide Mixes */
 html[hide_autoplay="true"] 
     #movie_player
     > div.ytp-chrome-bottom
