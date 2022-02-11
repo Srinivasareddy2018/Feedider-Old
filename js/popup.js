@@ -4,6 +4,7 @@ let menu = {
     "hide_feed": {name: "Hide Home Page Feed"},
     "hide_home_page_left_sidebar": {name: "Hide Home Left Sidebar"},
     "hide_sidebar": {name: "Hide Video Right Sidebar"},
+    "hide_thumbnail": {name : "Hide Thumbnail"},
     "hide_comments": {name: "Hide Comments"},
     "hide_end_screen_feed": {name: "Hide Video End Feed"},
     "hide_end_screen_video_cards": {name: "Hide Video End Cards"},
