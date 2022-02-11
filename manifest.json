@@ -1,5 +1,5 @@
 {
-    "name": "Feedider",
+    "name": "Feedider - Remove Youtube Recommendations",
     "description": "Feedider helps to watch only videos that you really want by removing unwanted recommended and home feed videos from youtube.",
     "version": "1.0.0",
     "manifest_version": 3,
