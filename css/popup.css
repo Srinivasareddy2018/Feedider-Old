@@ -8,7 +8,6 @@
 body {
   width: 300px;
   background-color: #f4f4f4;
-  margin-right: 0px;
 }
 
 h1 {
@@ -56,16 +55,11 @@ li {
 }
 
 #menu::-webkit-scrollbar {
-  width: 12.5px;
+  width: 3px;
 }
 
 #menu::-webkit-scrollbar-thumb {
   background: #929292;
-  border-radius: 25px;
-}
-
-#menu::-webkit-scrollbar-thumb:hover {
-  background: #adadad;
 }
 
 label {
