@@ -1,4 +1,4 @@
-<img src="images/logo.jpg" align="center">,
+<img src="images/logo.png" align="center">,
 # Feedider
 Feedider helps to watch only videos that you really want by removing unwanted recommended and home feed videos from youtube. Thanks for using Feedider.
 
