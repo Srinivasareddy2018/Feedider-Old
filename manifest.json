@@ -42,7 +42,7 @@
         {
             "run_at" : "document_end",
             "matches": [
-                "*://*.youtube.com/watch?*"
+                "https://www.youtube.com/watch?*"
             ],
             "js": [
                 "js/disableAutoplay.js"
