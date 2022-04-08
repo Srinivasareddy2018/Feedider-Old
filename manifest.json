@@ -13,17 +13,17 @@
     "action": {
         "default_popup": "popup.html",
         "default_icon": {
-            "16": "/images/feedider_16.jpg",
-            "32": "/images/feedider_32.jpg",
-            "48": "/images/feedider_48.jpg",
-            "128": "/images/feedider_128.jpg"
+            "16": "/images/feedider_16.png",
+            "32": "/images/feedider_32.png",
+            "48": "/images/feedider_48.png",
+            "128": "/images/feedider_128.png"
         }
     },
     "icons": {
-        "16": "/images/feedider_16.jpg",
-        "32": "/images/feedider_32.jpg",
-        "48": "/images/feedider_48.jpg",
-        "128": "/images/feedider_128.jpg"
+        "16": "/images/feedider_16.png",
+        "32": "/images/feedider_32.png",
+        "48": "/images/feedider_48.png",
+        "128": "/images/feedider_128.png"
     },
     "content_scripts": [
         {
