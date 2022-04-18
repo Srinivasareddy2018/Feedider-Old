@@ -1,16 +1,53 @@
-<img src="images/logo.jpg" align="center" width=128px>,
+<img src="images/logo.png" align="center" width=128px>,
 # Feedider
-Feedider helps to watch only videos that you really want by removing unwanted recommended and home feed videos from youtube. Thanks for using Feedider.
+Feedider helps to hide distracting feeds or other similar sections from youtube, facebook, instagram, linkedin, twitter and reddit.
 
 ## Features
-- Hide Home Feed
-- Hide Comments
-- Hide Video End Feed and Cards
-- Hide Subscriptions and Explore Buttons
-- Hide Left Sidebar
-- Hide Search Suggestions
-- Hide Video Description
-- Hide People also Watched Videos
+
+### Youtube
+    ✔ Thumbnails
+    ✔ Home Feed
+    ✔ Comments
+    ✔ Video End Feed and Cards
+    ✔ Subscriptions and Explore Buttons
+    ✔ Left Sidebar
+    ✔ Search Suggestions
+    ✔ Video Description
+    ✔ People also Watched Videos
+    ✔ Trending
+    ✔ Playlists
+    ✔ Mixes
+    ✔ Disable Autoplay
+
+### Facebook
+    ✔ Home Page Feed
+    ✔ Stories
+    ✔ Likes and Comments
+    ✔ People You May Know
+    ✔ Right Rail
+    ✔ Left Rail
+
+### Instagram
+    ✔ Posts
+    ✔ Stories
+    ✔ Suggestions
+    ✔ Likes, Comments and Description
+
+### LinkedIn
+    ✔ Home Feed
+    ✔ News
+    ✔ Comments
+
+### Twitter
+    ✔ Timeline
+    ✔ Trending
+    ✔ Likes
+    ✔ Retweets
+
+### Reddit
+    ✔ Home Feed
+    ✔ Recommended Communities
+    ✔ Comments
 
 ## Install
 Available in <a href="https://chrome.google.com/webstore/detail/feedider/ljfikgipfnfppelplmgdpmooaoehaljb/">Chrome Web Store</a>
